@@ -23,7 +23,6 @@ public class PathFinder {
 				AStar.populateNodes(line, lineNo++);
 			}
 			INode finalNode = AStar.getBestPath();
-			System.out.println("getBestPath ");
 			while(finalNode != null){
 				ICoordinate position = finalNode.getPosition();
 				char[] chars = lines.get(position.getY()).toCharArray();
