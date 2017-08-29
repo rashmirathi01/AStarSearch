@@ -14,7 +14,7 @@ import main.astar.model.INode;
 public class PathFinder {
 
 	public static void main(String[] args) {
-		try (BufferedReader reader =  Files.newBufferedReader(Paths.get("resources/map.txt"))) {
+		try (BufferedReader reader =  Files.newBufferedReader(Paths.get("resources/large_map.txt"))) {
 			String line = null;
 			int lineNo = 0;
 			List<String> lines = new ArrayList<String>();
